@@ -17,13 +17,13 @@
 		046B9404184555F600E1EE01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046B9402184555F600E1EE01 /* Main.storyboard */; };
 		046B9407184555F600E1EE01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B9406184555F600E1EE01 /* ViewController.m */; };
 		046B940A184555F600E1EE01 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B9409184555F600E1EE01 /* MyScene.m */; };
-		046B940C184555F600E1EE01 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 046B940B184555F600E1EE01 /* Spaceship.png */; };
 		046B940E184555F600E1EE01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046B940D184555F600E1EE01 /* Images.xcassets */; };
 		046B9415184555F600E1EE01 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046B9414184555F600E1EE01 /* XCTest.framework */; };
 		046B9416184555F600E1EE01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046B93EE184555F600E1EE01 /* Foundation.framework */; };
 		046B9417184555F600E1EE01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046B93F2184555F600E1EE01 /* UIKit.framework */; };
 		046B941F184555F600E1EE01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 046B941D184555F600E1EE01 /* InfoPlist.strings */; };
 		046B9421184555F600E1EE01 /* SpritekitCrashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B9420184555F600E1EE01 /* SpritekitCrashTests.m */; };
+		046B942B1845568900E1EE01 /* 70.caf in Resources */ = {isa = PBXBuildFile; fileRef = 046B942A1845568900E1EE01 /* 70.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,13 +53,13 @@
 		046B9406184555F600E1EE01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		046B9408184555F600E1EE01 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		046B9409184555F600E1EE01 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		046B940B184555F600E1EE01 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		046B940D184555F600E1EE01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		046B9413184555F600E1EE01 /* SpritekitCrashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpritekitCrashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		046B9414184555F600E1EE01 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		046B941C184555F600E1EE01 /* SpritekitCrashTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpritekitCrashTests-Info.plist"; sourceTree = "<group>"; };
 		046B941E184555F600E1EE01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		046B9420184555F600E1EE01 /* SpritekitCrashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpritekitCrashTests.m; sourceTree = "<group>"; };
+		046B942A1845568900E1EE01 /* 70.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 70.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +121,7 @@
 		046B93F6184555F600E1EE01 /* SpritekitCrash */ = {
 			isa = PBXGroup;
 			children = (
+				046B942A1845568900E1EE01 /* 70.caf */,
 				046B93FF184555F600E1EE01 /* AppDelegate.h */,
 				046B9400184555F600E1EE01 /* AppDelegate.m */,
 				046B9402184555F600E1EE01 /* Main.storyboard */,
@@ -128,7 +129,6 @@
 				046B9406184555F600E1EE01 /* ViewController.m */,
 				046B9408184555F600E1EE01 /* MyScene.h */,
 				046B9409184555F600E1EE01 /* MyScene.m */,
-				046B940B184555F600E1EE01 /* Spaceship.png */,
 				046B940D184555F600E1EE01 /* Images.xcassets */,
 				046B93F7184555F600E1EE01 /* Supporting Files */,
 			);
@@ -241,8 +241,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				046B93FB184555F600E1EE01 /* InfoPlist.strings in Resources */,
+				046B942B1845568900E1EE01 /* 70.caf in Resources */,
 				046B940E184555F600E1EE01 /* Images.xcassets in Resources */,
-				046B940C184555F600E1EE01 /* Spaceship.png in Resources */,
 				046B9404184555F600E1EE01 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
