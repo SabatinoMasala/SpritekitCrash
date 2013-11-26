@@ -13,7 +13,7 @@
 -(id)initWithSize:(CGSize)size {    
     if (self = [super initWithSize:size]) {
         self.arrSounds = [[NSMutableDictionary alloc] init];
-        [self.arrSounds setObject:[SKAction playSoundFileNamed:[NSString stringWithFormat:@"70.caf  "] waitForCompletion:NO] forKey:[NSString stringWithFormat:@"1"]];
+        [self.arrSounds setObject:[SKAction playSoundFileNamed:[NSString stringWithFormat:@"70.caf"] waitForCompletion:NO] forKey:[NSString stringWithFormat:@"1"]];
     }
     return self;
 }
